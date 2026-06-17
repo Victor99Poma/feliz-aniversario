@@ -405,3 +405,28 @@ footer {
         width: 100%;
     }
 }
+/* Contenedor del Reproductor de Música */
+.audio-container {
+    background: linear-gradient(135deg, #ffffff 0%, #fff1f3 100%);
+    padding: 15px 25px;
+    border-bottom: 2px solid #ffe3e3;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.audio-container p {
+    font-weight: bold;
+    color: #d63384;
+    font-size: 1rem;
+}
+
+/* Estilo sutil para los controles del audio */
+audio {
+    height: 35px;
+    border-radius: 20px;
+    background: #ffafbd;
+}
